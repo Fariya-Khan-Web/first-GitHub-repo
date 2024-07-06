@@ -8,3 +8,32 @@ li{
 a{
     text-decoration: none;
 }
+
+body nav ul {
+    display: flex;
+    gap : 10px;
+    background-color: aqua;
+    padding: 8px;
+    justify-content: flex-end;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 6px;
+    border: 1px dashed rgb(186, 18, 18);
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container .box{
+    width: 25%;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid tomato;
+
+    flex-grow: 1;
+}
